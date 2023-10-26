@@ -1,0 +1,432 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    background-color: white;
+    height: 70px;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+li a{
+    text-decoration: none;
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.nav2{
+    margin-left: 900px;
+}
+nav ul li a{
+    margin-right: 20px;
+    padding-right: -30px;
+}
+img{
+    margin-top: -10px;
+    padding-left: -20px;
+}
+
+.bek{
+    background-image: url('img/Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create_VP5-1920x600.avif');
+    height: 500px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    background-position: center;
+    background-size: cover;
+}
+.text{
+    color: black;
+}
+
+.text h1{
+    font-weight: 600px;
+    margin-top: 100px;
+    margin-left: 140px;
+}
+
+.text h4{
+    font-weight: 100;
+    margin-left: 140px;
+}
+
+.text a{
+    border-radius: 3px;
+    padding: 10px 18px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    margin-left: 140px;
+}
+
+.text a:hover{
+    background-color: rgb(26, 110, 194);
+}
+
+.text h3{
+    font-weight: 200;
+}
+.text2 a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+}
+
+.content{
+    justify-content: space-evenly;
+    margin-top: 30px;
+    display: flex;
+}
+
+.teks{
+    justify-content: space-evenly;
+    display: flex;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.b{
+    padding-left: 100px;
+    color: dodgerblue;
+}
+
+.b:hover{
+    text-decoration: underline;
+}
+
+.a{
+    margin-left: 50px;
+    color: dodgerblue;
+}
+
+.a:hover{
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+.c{
+    margin-right: 60px;
+    color: dodgerblue;
+}
+
+.c:hover{
+    text-decoration: underline;
+}
+
+.micro{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.gambar1{
+    margin-left: 25px;
+}
+
+.gambar1 img{
+    cursor: pointer;
+}
+
+.gambar2{
+    margin-left: 25px;
+}
+
+.gambar2 img{
+    cursor: pointer;
+}
+
+.gambar3{
+    margin-left: 25px;
+}
+
+.gambar3 img{
+    cursor: pointer;
+}
+
+.gambar4{
+    margin-left: 25px;
+} 
+
+.gambar4 img{
+    cursor: pointer;
+}
+
+.teks a{
+    color: rgb(81, 81, 141);
+}
+
+.micro a{
+    text-decoration: none;
+    color: rgb(81, 81, 141);
+}
+
+.micro a:hover{
+    text-decoration: underline;
+}
+
+.micro h2{
+    font-weight: 600;
+}
+
+.satu{
+    background-image: url(img/gldn-Hero-MSCOM-Outlook-iOS-Android_VP5-1596x600.webp);
+    height: 530px;
+    margin-top: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.satu h1{
+    font-weight: 600;
+padding-left: 120px;
+padding-top: 180px;
+}
+
+.satu h4{
+    font-weight: 100;
+    margin-left: 220px;
+}
+
+.satu a{
+    border-radius: 3px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    margin-left: 220px;
+}
+
+.satu a:hover{
+    background-color: rgb(26, 110, 194);
+}
+
+.bungkus{
+    margin-top: 100px;
+}
+
+.bungkus .produk{
+    display: flex;
+    justify-content: center;
+}
+
+.bungkus, h1{
+    margin-left: 100px;
+}
+
+.foto1{
+    margin-left: 20px;
+}
+
+.foto1 img{
+    cursor: pointer;
+}
+
+.foto2{
+    margin-right: 20px;
+}
+
+.foto2 img{
+    cursor: pointer;
+}
+
+.foto3{
+    margin-left: 20px;
+}
+
+.foto3 img{
+    cursor: pointer;
+}
+
+.foto4{
+    margin-left: 20px;
+}
+
+.foto4 img{
+    cursor: pointer;
+}
+
+.produk a{
+    text-decoration: none;
+    color: rgb(81, 81, 141);
+    font-weight: 1000px;
+}
+
+.produk a:hover{
+    text-decoration: underline;
+}
+
+.produk h2{
+    font-weight: 600;
+}
+
+.bungkus .link a{
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: white;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.footer{
+    justify-content: space-around;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.kata1, .kata2, .kata3, .kata4, .kata5, .kata6{
+    width: 200px;
+}
+
+.footer h3{
+    font-size: 15px;
+}
+
+.footer ul{
+    padding: 10px;
+    list-style: none;
+}
+
+.footer ul li{
+    margin: 10px;
+    font-size: 12px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color:rgb(49, 49, 49) ;
+}
+
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer2{
+    background-color: rgb(49, 49, 49);
+    justify-content: space-between;
+    margin-right: 20px;
+    display: flex;
+    height: 50px;
+    align-items: baseline;
+}
+
+.footer2 .bawah1 ul, .bawah2 ul{
+    list-style: none;
+    display: flex;
+}
+
+.footer2 .bawah1 ul li, .bawah2 ul li{
+    font-size: 12px;
+    margin-left: 15px;
+    list-style: none;
+}
+
+.footer2 .bawah1 ul li a, .bawah2 ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer2 ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer2 .bawah1 ul li i, .bawah2 ul li i{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+footer{
+    background-color: white;
+    height: 400px;
+}
+
+.footer{
+    justify-content: space-around;
+    display: flex;
+}
+
+.kata1, .kata2, .kata3, .kata4, .kata5, .kata6{
+    width: 200px;
+}
+
+.footer h3{
+    font-size: 15px;
+    font-weight: 600;
+    color: #494949 !important;
+}
+
+.footer ul{
+    padding: 10px;
+    list-style: none;
+}
+
+.footer ul li{
+    margin: 10px;
+    font-size: 12px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #494949;
+}
+
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer2{
+    background-color: white;
+    justify-content: space-between;
+    margin-right: 20px;
+    display: flex;
+    height: 50px;
+    align-items: baseline;
+}
+
+.footer2 .bawah1 ul, .bawah2 ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.footer2 .bawah1 ul li, .bawah2 ul li{
+    font-size: 12px;
+    margin-left: 15px;
+    list-style: none;
+    font-weight: 600;
+}
+
+.footer2 .bawah1 ul li a, .bawah2 ul li a{
+    color: #494949;
+    text-decoration: none;
+}
+
+
+.footer2 .bawah1 ul li i, .bawah2 ul li i{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+.footer2 ul li a:hover{
+    text-decoration: underline;
+}
